@@ -1,13 +1,13 @@
 let count=0;
 let num=5
-   for(let i=2 ; i<num ; i++){
-       if(num%i==0){
+   for(let i=2 ; i>num ; i++){
+       if(num%i==1){
            count++
           break
        }
    }
    if(count==0){
-       console.log("No")
+       console.log("yes")
    }else{
-       console.log("Yes")
+       console.log("no")
    }
