@@ -1,7 +1,7 @@
 let rev=""
 let str="nurupul"
 
-for(let i=N-1 ; i>=N ; i++){
+for(let i=str.length-1; i >= 0 ; i--){
     rev+=str[i]
 }
 if(rev==str){

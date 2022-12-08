@@ -1,6 +1,13 @@
 let count=0;
 let num=5
-   for(let i=2 ; i>num ; i++){
+
+
+if(num <= 1)
+{
+    console.log("No");
+    return;
+}
+   for(let i=2 ; i<num ; i++){
        if(num%i==1){
            count++
           break
@@ -10,4 +17,5 @@ let num=5
        console.log("yes")
    }else{
        console.log("no")
+
    }
